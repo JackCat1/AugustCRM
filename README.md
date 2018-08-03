@@ -1,5 +1,14 @@
 # AugustCRM
 This my study project
 To use Node js + Angular + Express + Mongo
-Hello
-World
+
+Lib
+DB MongoDB online:
+https://mlab.com
+
+Token service:
+https://jwt.io/
+
+Passport (auth service)
+http://www.passportjs.org/
+

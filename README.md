@@ -12,3 +12,6 @@ https://jwt.io/
 Passport (auth service)
 http://www.passportjs.org/
 
+Packets
+multer - загрузка файлов
+moment - форматирует дату

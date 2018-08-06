@@ -3,8 +3,8 @@ const router=express.Router();
 const controllers=require('../controllers/order');
 
 
-router.get('/',controllers.getAll);
-router.post('/',controllers.create);
+router.get('/',passport.authenticate('jwt',{session:false}),controllers.getAll);
+router.post('/',passport.authenticate('jwt',{session:false}),controllers.create);
 
 
 
